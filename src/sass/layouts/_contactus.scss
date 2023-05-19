@@ -1,0 +1,90 @@
+.contactus {
+    background-color: #fff;
+    padding: 10rem 0 5rem 0;  
+    border-bottom: solid 5rem #eee;
+    
+
+    .container {
+        margin: 0 3rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        column-gap: 2.5rem;
+
+        &s {
+            display: flex;
+            flex-direction: column;
+        }
+        &-1{
+            &-header {
+                font-size: 3rem;
+               
+                &-2 {
+                    font-size: 1.6rem; 
+                }
+            }
+            &-text {
+                font-size: 2rem;
+                margin: 1.2rem 0;
+                width: 65%;
+            }
+        }
+        &-2{
+            &-header {
+                font-size: 3rem;
+               
+            }
+            &-item {
+                margin-bottom: .7rem;
+            }
+        }
+        &-3{
+            &-header {
+                font-size: 3rem;
+               
+            }
+            &-item {
+                margin-bottom: .7rem;
+            }
+
+        }
+        &-4{
+            &-header {
+                font-size: 3rem;
+               
+            }
+            &-item {
+                margin-bottom: .7rem;
+            }
+        }
+        .lists {
+            font-size: 2rem;
+                margin: 2rem 0;
+                list-style: none;
+        }
+        &-5{
+            &-header {
+                font-size: 3rem;
+               
+            }
+            &-list {
+                margin: 1.5rem 0;
+                display: flex;
+                justify-content: space-between;
+            }
+            &-item {
+                list-style: none;
+            }
+        }
+      
+      
+    }
+}
+.img{
+    height: 3rem;
+    width: 3rem;
+    text-decoration: none;
+}
+.copyright {
+    font-size: 2.5rem;
+    margin-left: -1.15rem;
+}

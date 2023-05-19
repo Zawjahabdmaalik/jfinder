@@ -1,0 +1,59 @@
+.subscribe {
+    background-color: #eee;
+    margin-top: 4rem;
+    padding: 10rem 0rem 10rem 0rem;
+    position: relative;
+    border-bottom: 6rem solid #fff;
+    &-left {
+        margin-left: 15rem;
+
+
+        &-header {
+            font-size: 4rem;
+            font-weight: 700;
+            width: 33%;
+            margin-bottom: 2rem;
+
+        }
+        &-text {
+            font-size: 2rem;
+            width: 42%;
+
+        }
+    }
+    &-right {
+        display: inline-block;
+        position: absolute;
+        top: 12rem;
+        right: 14rem;
+
+        &::-webkit-input-placeholder {
+            background-color: #eee;
+            
+
+        }
+        .input {
+            text-align: center;
+            border: none;
+            margin-bottom: 4.5rem;
+            padding: 1.8rem 13rem;
+            border-radius: 5px;
+
+            &:focus {
+                outline: none;
+                border-bottom: 2px solid #3056D3;
+                box-shadow: 0 1rem 2rem rgba(#000, .1)
+            }
+        }
+    }
+    &-btn,
+    &-btn:link,
+    &-btn:visited {
+        padding: 1.8rem 17rem;
+        background-color: #3056D3;
+        border: none;
+        text-align: center;
+      
+
+    }
+}

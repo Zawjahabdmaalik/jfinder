@@ -1,0 +1,49 @@
+.app {
+    background-color: #eee;
+    padding: 10rem 0rem 0rem 0rem;
+
+    &-tem {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        }
+        &-left {
+          margin: 2rem 0 0 8rem;
+          width: 50%;
+    
+            &-header {
+            font-size: 3.5rem;
+            width: 80%;
+
+                
+    }
+            &-text {
+                font-size: 2rem;
+                
+            }
+        }
+        &-right {
+            width: 50%;
+        }
+         &-btn {
+            padding: 1.5rem 6rem;
+            background-color: #3056D3;
+            border: none;
+            text-align: center;
+            margin: 2rem 0;
+            font-size: 2rem;
+          }
+         
+          .img {
+            height: 45rem;
+            width: 70rem;
+
+          }
+          .top {
+            margin: -10rem 0 0 0;
+}
+          .bot {
+            margin: -55rem 0 0 0;
+
+}
+}
